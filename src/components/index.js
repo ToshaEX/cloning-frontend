@@ -1,0 +1,7 @@
+// export {default as Kids} from "./Kids/Kids" 
+export {default as Home} from "./Home/Home" 
+// export {default as Kids} from "./Kids/Kids" 
+// export {default as Kids} from "./Kids/Kids" 
+// export {default as Kids} from "./Kids/Kids" 
+// export {default as Kids} from "./Kids/Kids" 
+// export {default as Kids} from "./Kids/Kids" 
