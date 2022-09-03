@@ -1,0 +1,22 @@
+.tv{
+    display:flex;
+    padding:2rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.tv-image{
+    width:80%
+}
+.tv-para{
+    color:white;
+    width:35%
+}
+.glob-para-line-1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.glob-para-line-2{
+    font-size: 1.8rem;
+    font-weight: 400;
+}

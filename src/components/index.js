@@ -1,4 +1,4 @@
-// export {default as Kids} from "./Kids/Kids" 
+export {default as Tv} from "./Tv/Tv" 
 export {default as Home} from "./Home/Home" 
 // export {default as Kids} from "./Kids/Kids" 
 // export {default as Kids} from "./Kids/Kids" 
