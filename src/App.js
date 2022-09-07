@@ -1,11 +1,15 @@
 import './App.css';
-import {Home,Tv} from "./components/index"
+import {Home,Tv,Mobile,Other,Kids,Questions} from "./components/index"
 function App() {
   return (
     <div className="App">
       <Home />
       <Tv />
-    </div>
+      <Mobile />
+      <Other />
+      <Kids />
+      <Questions />
+      </div>
   );
 }
 

@@ -1,55 +1,107 @@
-.home{
- height:100vh;
- overflow: hidden;
- background-blend-mode:multiply;
+.home {
+  min-height: 100vh;
+  max-height: fit-content;
+  overflow: hidden;
+  background-blend-mode: multiply;
 }
 
-.home-top{
-    padding:1rem 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
-    align-items: center;
+.home-top {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.home-intro{
-    display:flex;
-    margin:10%;
-    flex-direction: column;
-    align-items: center;
+.home-intro {
+  display: flex;
+  margin: 10%;
+  flex-direction: column;
+  align-items: center;
 }
 
-.top-logo{
-    width:12%;
+.top-logo {
+  width: 12%;
 }
-.intro-para{
-    color:white;
-    width:60%;
-    text-align: center;
-    font-size: 1.3em;
-    
+.intro-para {
+  color: white;
+  line-height: 3rem;
+  width: 60%;
+  text-align: center;
+  font-size: 1.3em;
 }
-.para-line-1{
-    font-size: 4rem;
-    
-    font-weight: 500;
+.para-line-1 {
+  font-size: 4rem;
+  font-weight: 500;
 }
-.para-line-2{
-font-size: 1.3em;
+.para-line-2 {
+  font-size: 1.3em;
 }
-.btn.btn-primary{
-    background-color: #e50914;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 5px;
-    border-color: black;
-    padding:.5rem 1.4rem;
+.btn.btn-primary {
+  background-color: #e50914;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border-color: black;
+  padding: 0.5rem 1.4rem;
 }
-.btn.btn-primary.finish{
-    padding:.8rem 2rem;
+.btn.btn-primary.finish {
+  padding: 0.8rem 2rem;
 }
-.divider{
-    padding:0;
-    margin:0;
-    height: .5rem;
-    background-color:#222 ;
+.divider {
+  padding: 0;
+  margin: 0;
+  height: 0.5rem;
+  background-color: #222;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-intro {
+  margin: 15%; 
+}
+.home {
+  min-height: fit-content;
+}
+    .intro-para {
+    width: 90%;
+    line-height: 2.5rem;
+  }
+  .para-line-1 {
+    font-size: 3rem;
+  }
+  .top-logo {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .intro-para {
+    width: 100%;
+    line-height: 2.5rem;
+  }
+  .para-line-1 {
+    font-size: 2.5rem;
+  }
+  .top-logo {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .home-intro {
+  margin: 10%;
+  
+}
+
+.btn.btn-primary {
+  font-size: .8rem;
+}
+
+  .para-line-1 {
+    font-size: 2.3rem;
+  }
+  .para-line-2 {
+  font-size: 1em;
+}
+
 }

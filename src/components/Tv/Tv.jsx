@@ -7,15 +7,14 @@ const Tv = () => {
   return (
     <>
       <div className="tv">
-        <p className="tv-para">
-          <span className="glob-para-line-1">Enjoy on your TV.</span>
-          <br />
-          <span className="glob-para-line-2">
+        <div className="tv-para">
+          <p className="glob-para-line-1">Enjoy on your TV.</p>
+          <p className="glob-para-line-2">
             Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
             players, and more.
-          </span>
-        </p>
-        <div>
+          </p>
+        </div>
+        <div className='tv-image-container'>
           <img src={tvJpg} className="tv-image" />
         </div>
       </div>
@@ -24,4 +23,4 @@ const Tv = () => {
   );
 }
 
-export default Tv
+export default Tv;

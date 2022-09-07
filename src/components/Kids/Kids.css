@@ -1,0 +1,41 @@
+.kids{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+    padding-left: 9rem;
+    align-items: center;
+    background-color: black;
+}
+
+.kids-image{
+    width:35%;
+    padding-left: 2rem;
+}
+.kids-para{
+    color: white;
+    width:80%;
+}
+
+@media  only screen and (max-width:1200px){
+    .kids{
+        padding-left: 2rem;
+    }
+    .kids-image{
+    width:45%;
+    padding-left: 0rem;
+}
+
+}
+@media  only screen and (max-width:950px){
+    .kids{
+        flex-direction: column-reverse;
+    }
+    .kids-image{
+    width:100%;
+}
+.kids-para{
+    width:100%;
+    text-align: center;
+}
+}
+
