@@ -1,12 +1,12 @@
-import React from 'react'
-import mobileImage from "../../assets/mobile-0819.jpg"
-import "./Mobile.css"
+import React from "react";
+import mobileImage from "../../assets/mobile-0819.jpg";
+import "./Mobile.css";
 
 const Mobile = () => {
   return (
     <>
       <div className="mobile">
-        <div className='mobile-container'>
+        <div className="mobile-container">
           <img src={mobileImage} alt="mobile" className="mobile-image"></img>
         </div>
         <div className="mobile-intro">
@@ -23,6 +23,6 @@ const Mobile = () => {
       <div className="divider" />
     </>
   );
-}
+};
 
-export default Mobile
+export default Mobile;

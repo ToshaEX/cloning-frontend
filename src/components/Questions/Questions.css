@@ -46,13 +46,12 @@
 
 @media only screen and (max-width: 600px) {
   .questions-heading {
-  text-align: center;
-
-}
-.questions-button {
-  font-size: 1.4rem;
-}
-    .questions-container {
+    text-align: center;
+  }
+  .questions-button {
+    font-size: 1.4rem;
+  }
+  .questions-container {
     width: 100%;
   }
 }

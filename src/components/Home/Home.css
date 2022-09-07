@@ -56,12 +56,12 @@
 
 @media only screen and (max-width: 1200px) {
   .home-intro {
-  margin: 15%; 
-}
-.home {
-  min-height: fit-content;
-}
-    .intro-para {
+    margin: 15%;
+  }
+  .home {
+    min-height: fit-content;
+  }
+  .intro-para {
     width: 90%;
     line-height: 2.5rem;
   }
@@ -74,8 +74,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-
-    .intro-para {
+  .intro-para {
     width: 100%;
     line-height: 2.5rem;
   }
@@ -89,19 +88,17 @@
 
 @media only screen and (max-width: 575px) {
   .home-intro {
-  margin: 10%;
-  
-}
+    margin: 10%;
+  }
 
-.btn.btn-primary {
-  font-size: .8rem;
-}
+  .btn.btn-primary {
+    font-size: 0.8rem;
+  }
 
   .para-line-1 {
     font-size: 2.3rem;
   }
   .para-line-2 {
-  font-size: 1em;
-}
-
+    font-size: 1em;
+  }
 }

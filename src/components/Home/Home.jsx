@@ -6,7 +6,6 @@ import logo from "../../assets/netflix-logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
 
-
 const Home = () => {
   return (
     <>
@@ -41,7 +40,6 @@ const Home = () => {
         </div>
       </div>
       <div className="divider" />
-      
     </>
   );
 };

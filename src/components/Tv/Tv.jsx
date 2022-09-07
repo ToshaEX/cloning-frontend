@@ -1,7 +1,6 @@
-import React from 'react'
-import tvJpg from "../../assets/tv.png"
-import  "./Tv.css"
-
+import React from "react";
+import tvJpg from "../../assets/tv.png";
+import "./Tv.css";
 
 const Tv = () => {
   return (
@@ -14,13 +13,13 @@ const Tv = () => {
             players, and more.
           </p>
         </div>
-        <div className='tv-image-container'>
+        <div className="tv-image-container">
           <img src={tvJpg} className="tv-image" />
         </div>
       </div>
       <div className="divider" />
     </>
   );
-}
+};
 
 export default Tv;

@@ -1,6 +1,6 @@
-import React from 'react'
-import kidsImage from "../../assets/kids.png"
-import "./Kids.css"
+import React from "react";
+import kidsImage from "../../assets/kids.png";
+import "./Kids.css";
 
 const Kids = () => {
   return (
@@ -21,6 +21,6 @@ const Kids = () => {
       <div className="divider" />
     </>
   );
-}
+};
 
-export default Kids
+export default Kids;

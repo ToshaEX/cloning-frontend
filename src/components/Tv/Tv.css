@@ -8,7 +8,7 @@
 }
 .tv-image {
   width: 80%;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,13 +42,11 @@
 @media only screen and (max-width: 950px) {
   .tv {
     flex-direction: column;
-
   }
   .tv-para {
-    width:100%;
+    width: 100%;
     text-align: center;
   }
- 
 
   .tv-image {
     width: 90%;
@@ -57,34 +55,30 @@
 @media only screen and (max-width: 950px) {
   .tv {
     flex-direction: column;
-
   }
   .tv-para {
-
     text-align: center;
   }
   .glob-para-line-1 {
-  font-size: 2.4rem;
+    font-size: 2.4rem;
     font-weight: 700;
-}
+  }
   .glob-para-line-2 {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
   .tv-image {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-
   .glob-para-line-1 {
-  font-size: 2rem;
+    font-size: 2rem;
     font-weight: 700;
-}
+  }
   .glob-para-line-2 {
-  font-size: 1rem;
-  font-weight: 500;
-}
-
+    font-size: 1rem;
+    font-weight: 500;
+  }
 }

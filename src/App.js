@@ -1,4 +1,3 @@
-import './App.css';
 import {Home,Tv,Mobile,Other,Kids,Questions} from "./components/index"
 function App() {
   return (

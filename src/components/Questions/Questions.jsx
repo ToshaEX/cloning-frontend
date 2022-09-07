@@ -1,20 +1,18 @@
-import React,{useState} from 'react'
-import "./Questions.css"
+import React, { useState } from "react";
+import "./Questions.css";
 
 const Questions = () => {
-  const display={
-    question1:"none",
-    question2:"none",
-    question3:"none",
-    question4:"none",
-  }
-  const [dis,setDis]= useState(display);
+  const display = {
+    question1: "none",
+    question2: "none",
+    question3: "none",
+    question4: "none",
+  };
+  const [dis, setDis] = useState(display);
   return (
     <>
       <div className="questions">
-        <p className="questions-heading">
-          Frequently Asked Questions
-        </p>
+        <p className="questions-heading">Frequently Asked Questions</p>
 
         <div className="questions-container">
           <div
@@ -71,6 +69,6 @@ const Questions = () => {
       <div className="divider"></div>
     </>
   );
-}
+};
 
-export default Questions
+export default Questions;

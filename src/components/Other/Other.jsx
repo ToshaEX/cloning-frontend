@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Other.css"
+import React from "react";
+import "./Other.css";
 
 const Other = () => {
   return (
@@ -19,6 +19,6 @@ const Other = () => {
       <div className="divider" />
     </>
   );
-}
+};
 
-export default Other
+export default Other;
